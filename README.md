@@ -1,3 +1,26 @@
+# Output from print for understanding
+{
+  "access_token": "xxxxxx",
+  "scope": "web id api",
+  "instance_url": "https://your-instance-url.my.salesforce.com",
+  "id": "https://your-instance-url.my.salesforce.com/id/{orgid}/{userid}",
+  "token_type": "Bearer"
+}
+Access Token: xxxxxx
+Instance URL: https://your-instance-url.my.salesforce.com
+Org ID: orgid
+(('accesstoken', 'xxxx'), ('instanceurl', 'https://your-instance-url.my.salesforce.com'), ('tenantid', orgid))
+Connected to PubSub
+<pubsub_api_pb2_grpc.PubSubStub object at 0x102e5cb50>
+Connected to PubSub
+Subscribing to /event/azure_iot__e
+Current time: 1722521906
+Number of events received:  1
+Got an event! {"CreatedDate": 1722521905164, "CreatedById": "005f4000003PsbbAAC", "Message__c": "[ Aug 01, 2024 10:13AM EDT ] The subscription is active Testing on with gRPC protocol", "Device_Id__c": "IOT Device 9881", "Status__c": "Obsolete", "AssetId__c": "02if4000000rN3AAAU"}
+
+
+
+
 # Getting Started with the Pub/Sub API
 
 - [About Pub/Sub API](#about-pubsub-api)
